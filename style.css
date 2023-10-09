@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg\ img.jpg);
+    background-size: cover;
+    background-position: center;
+   height: 590px;
+    }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 200px;
+    padding-left: 220px;
+}
+ .icon button{
+ background-color: red;
+ margin-right: 170px;
+ margin-top: 45px;
+ padding: 8px 20px 8px 20px;
+ border-radius: 7px;
+ cursor: pointer;
+ 
+ }
+ .icon-lang{
+    display: flex;
+ }
+ 
+ #language{
+    padding: 0 15px;
+    background-color: transparent;
+    margin: 45px;
+ }
+.head{
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 130px;
+   
+    
+}
+.head1{
+    font-size: 28px;
+    margin-left: 500px;
+    padding-top: 15px;
+    
+}
+.head2{
+    font-size: 22px;
+    margin-left: 350px;
+    padding-top:  20px; 
+    
+}
+.entry-content{
+    display: flex;
+}
+.email input{
+ background: transparent;
+ margin-left: 450px;
+ margin-top: 30px;
+ padding: 20px 50px 15px 150px;
+ border-radius: 5px;
+}
+
+.btn button{
+    padding: 20px ;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 15px 50px 15px 15px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.content1{
+    background: #000;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    
+}
+.input1{
+    font-size: 60px;
+}
+.input2{
+    font-style: normal;
+    font-size: 20px;
+}
+.cont{
+    width: 500px;
+}
+.img img{
+    width: 450px;
+}
+.content2{
+    background: #000;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 100px;
+}
+.type img{
+    width: 400px;
+}
+.type1{
+    font-size: 30px;
+}
+.type2{
+    padding-top: 20px;
+}
+.content3{
+    background: #000;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 100px;
+}
+.header1{
+    font-size: 30px;
+}
+.header2{
+    padding-top: 20px;
+}
+.content4{
+    background: #000;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 100px;
+}
+.fill2{
+    font-size: 30px;
+}
+.fill3{
+    padding-top: 20px;
+}
+.content5{
+    background: #000;
+    background-size: cover;
+    width: 100%;
+    padding-top: 100px;
+}
+.flex{
+    font-size: 50px;
+    text-align: center;
+}
+.text{
+    max-width: 790px;
+    width: 100%;
+    
+    margin: 60px;
+    margin-left: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+.text li{
+    padding: 7px;
+    list-style: none;
+}
+.text li label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #303030;
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 20px;
+    padding: 20px;
+}
+label::after{
+    content: '+';
+    position: absolute;
+    font-size: 50px;
+    right: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+.text .description{
+    text-align: left;
+    background-color: #303030;
+    padding: 0 20px;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+.content6{
+    background: #000;
+    background-size: cover;
+    width: 100%;
+    padding-top: 200px ;
+    font-size: 15px;
+}
+.content6 h2{
+    color: #777;
+    padding-left: 150px;
+}
+.row{
+    display: flex;
+    padding-left:  150px ;
+    padding-top: 50px;
+    align-items: flex-start;
+
+   
+}
+.content6 .col{
+    margin-bottom: 20px;
+}
+.content6 .col1 a{
+    display: block;
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.content6 .col2 a{
+    display: block;
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+}
+.content6 .col3 a{
+    display: block;
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+}
+.content6 .col4 a{
+    display: block;
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+}
+.icon-lang1{
+    padding-left: 100px;
+    padding-bottom: 20px;
+    
+}
+.cp-text p{
+    padding-left: 150px;  
+    padding-bottom: 100px;  
+    color: #777;
+}
+
